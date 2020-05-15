@@ -233,21 +233,6 @@ MeshCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 449130754}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.81, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1426996268}
-  - {fileID: 946736011}
-  - {fileID: 1030039617}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &449130757
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 35010181}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -264,7 +249,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &52284277
 MeshCollider:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2426,12 +2410,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 27ba09535212b91428076d4bc0e1ef66,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.36
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 27ba09535212b91428076d4bc0e1ef66,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.643
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 27ba09535212b91428076d4bc0e1ef66,
         type: 3}
@@ -2995,7 +2979,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065843616}
   m_LocalRotation: {x: -0.48708475, y: 0.51258993, z: 0.51258993, w: 0.48708475}
-  m_LocalPosition: {x: 9.1, y: 11.65, z: 35.92}
+  m_LocalPosition: {x: 9.1, y: 11.65, z: 36}
   m_LocalScale: {x: 5.1466208, y: 23.183134, z: 12.34923}
   m_Children: []
   m_Father: {fileID: 968332184}
@@ -3773,7 +3757,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b034a4092174a9b4197c739c4423c7c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.18
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b034a4092174a9b4197c739c4423c7c4,
         type: 3}
@@ -6509,7 +6493,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9153798617396233495, guid: b034a4092174a9b4197c739c4423c7c4, type: 3}

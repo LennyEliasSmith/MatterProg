@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IncidentManager : MonoBehaviour
 {
@@ -11,7 +12,12 @@ public class IncidentManager : MonoBehaviour
 
     public GameObject incidentManager;
 
+
+
     // Update is called once per frame
+
+   
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -44,11 +50,19 @@ public class IncidentManager : MonoBehaviour
         }
 
 
+   
+
 
     }
 
-    
-      
+    public void ResetLevel()
+    {
 
-    
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
+
+    }
+
+
+
+
 }

@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
 {
 
     public CharacterController controller;
+    private static GameObject playerInstance;
 
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -19,6 +20,21 @@ public class PlayerMove : MonoBehaviour
     bool isGrounded;
 
     // Update is called once per frame
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+
+        if(playerInstance == null)
+        {
+            playerInstance = gameObject;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }
     void Update()
     {
 

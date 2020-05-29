@@ -2,31 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class debrisIncident : MonoBehaviour
+public class grillFireIncident : MonoBehaviour
 {
 
     public GameObject directionalLightObject;
     private Light directionalLight;
-    Animator anim;
-
+    public GameObject fire;
     // Start is called before the first frame update
     void Start()
     {
         directionalLight = directionalLightObject.GetComponent<Light>();
-        anim = GetComponent<Animator>();
+        fire = GameObject.FindGameObjectWithTag("Fire2");
+        fire.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public void DebrisAccident()
+
+    public void GrillFireAftermath()
     {
-        anim.SetBool("isDebrisActivated", true);
-        Debug.Log("activated");
+        Debug.Log("Fire burning in grill");
+        fire.SetActive(true);
+        Debug.Log(fire);
         directionalLight.color = Color.red;
+
 
 
     }

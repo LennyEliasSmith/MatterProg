@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - Fire2
+  - blood
   layers:
   - Default
   - TransparentFX

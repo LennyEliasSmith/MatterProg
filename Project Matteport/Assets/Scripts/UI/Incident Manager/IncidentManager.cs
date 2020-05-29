@@ -58,7 +58,7 @@ public class IncidentManager : MonoBehaviour
     public void ResetLevel()
     {
 
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
 
     }
 
